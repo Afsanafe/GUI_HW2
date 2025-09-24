@@ -5,8 +5,6 @@ body {
 	background-size: contain;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
-
-	/* color: #333; */
 } 
 
  /* The boxed layout */
@@ -42,11 +40,6 @@ body {
   	display: flex; 
 	align-items: center;
   	font-weight: 700; 
-	
-	
-	
-
-	/* font-size: clamp(22px, 3vw, 36px); responsive (changes size) but still constained with max and min range*/ 
 }
 
 #wrapper header h1 {
@@ -201,12 +194,11 @@ body {
 /* Responsive layout for small screens */
 /* Optional: nicer bullets next to the image */
 /* #wrapper > #content ul { padding-left: 4.2rem; } */
-
 #wrapper > #content > #contact {
 	padding-left: 52px;
 }
 
-/* ——— Responsive: collapse to single column under 900px ——— */
+/* Responsive: collapse to single column under 900px */
 @media (max-width: 600px) {
 	#wrapper > #content {
 		grid-template-columns: 1fr;    /* one column */
@@ -261,9 +253,8 @@ body {
 		padding: 0;
 		gap: 0;
 		margin: 24px auto;
-		/* what is vw and vh? */
 		background: white;
-		/* box-shadow: 0 2px 16px; */
+
 		/* grid layout */
 		display: grid;
 		grid-template-columns: 220px 1fr; 
@@ -288,7 +279,7 @@ body {
 
 #wrapper {
   box-sizing: border-box;
-  overflow-x: hidden;   /* or hidden */
+  overflow-x: hidden;
 }
 
 
